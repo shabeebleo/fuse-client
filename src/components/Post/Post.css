@@ -1,0 +1,71 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  
+}
+.PostDelete{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+
+  padding: 1rem;
+  background-color: var(--cardColor);
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.Post > img {
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.postReact {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.commentInput {
+  display: flex;
+  gap: 2px;
+  width: 100%;
+  
+}
+.comment {
+  width: 70%;
+  border-radius: 0.5rem;
+  border-width: 0.56px;
+  border-color: rgb(161, 230, 230);
+  margin-right: 2px;
+}
+.commentButton {
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBgg);
+  transition: all 100ms ease-out;
+}
+.commentButton:hover {
+    cursor: pointer;
+    color: #104863;
+    background: transparent;
+    border: 2px solid var(--teal);
+  }
+.comment:focus {
+  background-color: rgb(199, 247, 231);
+}
+.allComments{
+  width: 60%;
+  border-radius: 0.5rem;
+  border-width: 0.56px;
+  border-color: rgb(161, 230, 230);
+  margin-right: 2px;
+}

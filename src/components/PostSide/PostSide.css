@@ -1,0 +1,8 @@
+.PostSide{
+display: flex;
+height: 100vh;
+gap: 1rem;
+overflow: auto;
+flex-direction: column;
+width: 750px;
+}

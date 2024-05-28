@@ -1,0 +1,66 @@
+.authentication {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 88, 102);
+     margin: -16px;
+  }
+
+.spinner-parent {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100% ;
+    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.692);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 5rem;
+    height: 5rem;
+    color: white !important;
+  }
+
+.authentication.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: goldenrod;
+    color: white !important;
+    max-width: max-content;
+  }
+
+  .authentication-form {
+    width: 400px;
+  }
+
+.label {
+    color: rgb(8, 0, 0) !important
+  }
+
+.ant-form-item {
+    margin: 10px 0 !important;
+  }
+  
+.width-input{
+    width: max-content !important
+  }
+
+.primary-button {
+    background-color: rgb(53, 118, 134) !important;
+    border-radius: 5px !important;
+    height: 40px !important;
+    width: 100% !important;
+    color: white !important;
+    font-size: 16px !important;
+    width:max-content 
+  }
+  
+.anchor {
+    color: black !important;
+  
+    text-decoration: underline;
+    font-size: 12px;
+  }
